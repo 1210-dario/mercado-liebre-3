@@ -1,0 +1,208 @@
+.home{
+    background-color: var(--color-gris-claro);
+}
+
+/*Header*/
+
+.home header {
+    background-color: var(--color-amarillo);
+    padding-bottom: 1.7em;
+}
+
+.home .nav1 img{
+    margin-top: 2.7em;
+    width: 120px;
+    margin-left: 2.2em;
+    margin-bottom: 1em;
+}
+
+.home .searchBar{
+    width: 158px;
+}
+
+.home .head1{
+    margin-left: 1.2em;
+    margin-bottom: 0.6em;
+}
+
+.home .head2{
+    margin-bottom: 1.4em;
+    color: black;
+}
+
+.home header p{
+    text-align: center;
+}
+
+.home .lista1{
+    margin-bottom: 1em;
+    display: none;
+}
+
+.home .lista2{
+    margin-bottom: 1em;
+    display: none;
+}
+
+.home .burguer-menu i{
+    font-size: 24px;
+}
+
+.home .burguer-menu{
+    text-align: center;
+    color: white;
+    background-color: var(--color-celeste);
+    width: 40px;
+    height: 40px;
+    padding-top: 8px;
+    border-radius: 10%;
+    margin-left: 140px;
+}
+
+/* Banner */
+
+.home .banner{
+    width: 100vw;
+}
+
+/* Main */
+
+.home main{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.home .img-product{
+    width: 100%;
+}
+
+.home main h2{
+    font-size: 24px;
+    color: var(--color-gris-oscuro);
+    margin-bottom: 24px;
+}
+
+.home main .precio{
+    font-size: 18px;
+}
+
+.home main .desc{
+    color: var(--color-verde);
+    font-size: 16px;
+}
+
+.home main .fa-truck{
+    color: var(--color-verde);
+    font-size: 16px;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.home main .truck{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--color-verde);
+}
+
+.home main h3{
+    font-size: 16px;
+    color: var(--color-gris-oscuro);
+    display: none;
+}
+
+.home main article{
+    margin-bottom: 10px;
+}
+
+.home main article .description{
+    border-top: 1px solid var(--color-gris-claro);
+    padding: 15px;
+    background-color: white;
+}
+
+
+/* Footer*/
+
+.home footer{
+    background-color: white;
+}
+
+.home footer div{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.home footer h4{
+    font-size: 16px;
+}
+
+.home footer p{
+    width: 240px;
+    margin-left: 40px;
+}
+
+.home footer .fa-credit-card{
+    margin-top: 60px;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.home footer .fa-gift{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.home footer .fa-user-shield{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.home .copyright h4{
+    font-size: 12px;
+}
+
+.home .copyright{
+    padding-bottom: 2em;
+}
+
+.home footer h4, footer p{
+    color: var(--color-gris-oscuro);
+}
+
+
+
+.home footer .copyright{
+    text-align: left;
+    margin-left: 15px;
+}
+
+/* Media Querys*/
+
+@media (min-width: 361px){
+    /* Main */
+    .home main h3{
+        display: block;
+    }
+
+    .home main article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .home .lista1{
+        display: block;
+    }
+    
+    .home .lista2{
+        display: block;
+    }
+
+    .home .burguer-menu{
+        display: none;
+    }
+
+}
+
+@media (min-width: 769px){
+    
+}
