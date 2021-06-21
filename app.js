@@ -15,5 +15,5 @@ app.get('/contacto', (req, res) => {
 
 app.use(express.static('public'));
 
-app.listen(port, () => console.log(`Servidor corriendo en el puerto: ${port}`));
+app.listen(port, () => console.log(`Servidor corriendo en http://localhost:${port}`));
 

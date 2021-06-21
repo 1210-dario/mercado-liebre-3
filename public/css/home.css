@@ -49,14 +49,16 @@
 }
 
 .home .burguer-menu{
-    text-align: center;
     color: white;
     background-color: var(--color-celeste);
     width: 40px;
     height: 40px;
-    padding-top: 8px;
     border-radius: 10%;
-    margin-left: 140px;
+    border: none;
+}
+
+.home .burguer{
+    text-align: center;
 }
 
 /* Banner */
