@@ -61,15 +61,16 @@
     text-align: center;
 }
 
+
+/* Main */
+
 /* Banner */
 
 .home .banner{
     width: 100vw;
 }
 
-/* Main */
-
-.home main{
+.home .main-products{
     width: 90%;
     margin-left: 5%;
 }
